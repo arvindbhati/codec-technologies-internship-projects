@@ -32,3 +32,6 @@ mongoose.connect(process.env.MONGO_URI, {
 }).catch((err) => {
   console.error('MongoDB connection error:', err);
 });
+
+const checkoutRoute = require('./routes/checkoutRoute');
+app.use('/api/checkout', checkoutRoute);
