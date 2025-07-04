@@ -4,7 +4,8 @@ import React, { useEffect, useState } from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 import axios from 'axios';
 
-const stripePromise = loadStripe('pk_test_YourPublicStripeKeyHere');
+const stripePromise = loadStripe('pk_test_51MyExampleKeyArvindBhati987654321AbCdEfGhIjKlMnOp
+');
 
 const Cart = () => {
   const [cartItems, setCartItems] = useState([]);
